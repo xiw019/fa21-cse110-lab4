@@ -58,8 +58,11 @@ H. '3' - undefined = NaN, since it is illegal to do such operation
 
 ### q14
 A. '2' > 1 ,true, it is because '2' is treated as integer 2
-B. '2' < '12', false, 
+B. '2' < '12', false, when comparing strings, it will compare the first character.
 C. 2 == ‘2' , true, since '2' is treated as integer 2
+D. 2 === '2', false, == need same datatype
+E. true == 2, false, true has a integer representaion: 1
+F. true === boolean(2), true, the boolean value of any non empty values is true
 
 ### q15
 The difference between '==' and '===' is that, == allows the data type change but === will return false as long as the data type is not matched.
@@ -67,7 +70,8 @@ The difference between '==' and '===' is that, == allows the data type change bu
 ### q16
 Please refer to part2-question16.js
 
-### q17
+### q17  
+[2, 4, 5] the function the for-loop in 'modifyArray' function iteratively call the 'doSomething' function and multiple each element by 2.
 
 ### q18  
 Please refer to part2-question18.js
