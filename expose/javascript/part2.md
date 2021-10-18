@@ -46,15 +46,15 @@ D. student['Favorite Teacher'].name
 E. student.courseLoad[0]
 
 ### q13
-A. '3'+2 = '32', since interger is converted to its string representation
-B. '3' - 2 = 1, since the string is converted to its integer representation
-C. 3 + null = 3, since null is as integer 0
-D. '3' + null = '3null'
-E. true + 3 = 4, since true is treated as integer 1 
+A. '3'+2 = '32', since interger is converted to its string representation 
+B. '3' - 2 = 1, since the string is converted to its integer representation 
+C. 3 + null = 3, since null is as integer 0 
+D. '3' + null = '3null' 
+E. true + 3 = 4, since true is treated as integer 1  
 F. false + null = 0, since false is represented by interger 0 and null is a absence value.
-and the operator cannot handle the booelan operation, thus false is conveted to 0. 
-G. '3' + undefined =  '3undefined', since undefined is represented by string
-H. '3' - undefined = NaN, since it is illegal to do such operation
+and the operator cannot handle the booelan operation, thus false is conveted to 0.  
+G. '3' + undefined =  '3undefined', since undefined is represented by string 
+H. '3' - undefined = NaN, since it is illegal to do such operation 
 
 ### q14
 
