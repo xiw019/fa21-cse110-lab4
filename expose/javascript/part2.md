@@ -57,10 +57,21 @@ G. '3' + undefined =  '3undefined', since undefined is represented by string
 H. '3' - undefined = NaN, since it is illegal to do such operation   
 
 ### q14
+A. '2' > 1 ,true, it is because '2' is treated as integer 2
+B. '2' < '12', false, 
+C. 2 == ‘2' , true, since '2' is treated as integer 2
 
 ### q15
+The difference between '==' and '===' is that, == allows the data type change but === will return false as long as the data type is not matched.
 
 ### q16
 Please refer to part2-question16.js
 
 ### q17
+
+### q18  
+Please refer to part2-question18.js
+
+### q19
+Output is 1,4,3,2. It is because the code will delay the function in 'setTimeout()' by a dedicated number. 
+Thus it prints 1,4 first. And since log(3) has a shorter delay time, it is printed right after 4.

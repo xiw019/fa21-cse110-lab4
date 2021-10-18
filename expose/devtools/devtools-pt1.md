@@ -2,13 +2,13 @@
 #### Xianglong Wang A15584153 ###
 
 ### q1  
-The name is citylots.json  
+citylots.json  
 
 ### q2  
 expose.js  
 
 ### q3  
-file size: 11.7 MB  
+11.7 MB  
 
 ### q4  
 75ms
