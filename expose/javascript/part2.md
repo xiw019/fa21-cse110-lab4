@@ -38,4 +38,29 @@ Line 12 will output the value of length: 3. Since length is a constant within th
 ### q11 
 The function will return a list: [50, 100, 150]. It is because though the varible 'discounted' is a 'const', it does not mean it is immutable. It is still possible to push an value into it. However, we should notice that we cannot reassign value of a 'const' type variable.
 
- 
+### q12
+A. student.name 
+B. student['Grad Year']
+C. student.greeting() 
+D. student['Favorite Teacher'].name
+E. student.courseLoad[0]
+
+### q13
+A. '3'+2 = '32', since interger is converted to its string representation
+B. '3' - 2 = 1, since the string is converted to its integer representation
+C. 3 + null = 3, since null is as integer 0
+D. '3' + null = '3null'
+E. true + 3 = 4, since true is treated as integer 1 
+F. false + null = 0, since false is represented by interger 0 and null is a absence value.
+and the operator cannot handle the booelan operation, thus false is conveted to 0. 
+G. '3' + undefined =  '3undefined', since undefined is represented by string
+H. '3' - undefined = NaN, since it is illegal to do such operation
+
+### q14
+
+### q15
+
+### q16
+Please refer to part2-question16.js
+
+### q17
